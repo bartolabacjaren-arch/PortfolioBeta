@@ -1,0 +1,55 @@
+body {
+    /* Muted lavender-to-blue gradient for a twilight feel */
+    background: linear-gradient(135deg, #d1d1e9 0%, #e3e3f3 100%);
+    color: #5d5d7a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form#sumForm {
+    /* Translucent "Glass" effect */
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(142, 142, 169, 0.2);
+}
+
+h2 {
+    color: #7e7eb2;
+}
+
+input[type="text"] {
+    background-color: #f8f8ff;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    color: #5d5d7a;
+    padding: 8px;
+}
+
+/* Button Colors */
+button[type="button"] {
+    background-color: #b2b2d8; /* Muted dusty blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+button[type="reset"] {
+    background-color: #e6b3cc; /* Muted dusty rose */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* Results text color */
+p {
+    color: #8a8ab9;
+    font-weight: bold;
+}

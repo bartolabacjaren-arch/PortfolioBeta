@@ -1,0 +1,69 @@
+body {
+    background-color: #0b0e11; /* Deep midnight navy/black */
+    /* Muted Ice Blue - much cooler and softer than white */
+    color: #a5d1d1;           
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.header, .navbar, .main, .footer {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #161b22; /* Darker slate surface */
+    /* Dark Teal border - subtle and professional */
+    border: 1px solid #2d3e3e; 
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* A glowing top accent in Teal */
+    border-top: 3px solid #489d9d; 
+}
+
+/* Titles and Labels - slightly brighter to stand out, but still cool */
+h1, h2, h3, label {
+    color: #72dbdb; 
+    letter-spacing: 1px;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0d1117; /* Inset look for the nav */
+}
+
+table.nav a {
+    color: #489d9d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 0.4s ease;
+}
+
+table.nav a:hover {
+    color: #ffffff;
+    background-color: rgba(72, 157, 157, 0.15);
+    border-radius: 8px;
+    text-shadow: 0 0 8px #72dbdb; /* Subtle cool glow */
+}
+
+.main {
+    min-height: 600px;
+    padding: 40px;
+    /* This creates a soft gradient so the middle of the box looks illuminated */
+    background: radial-gradient(circle at top, #1c2128 0%, #161b22 100%);
+}
+
+.footer {
+    height: 80px;
+    font-size: 0.85em;
+    color: #536666; /* Muted teal-gray for less important text */
+}

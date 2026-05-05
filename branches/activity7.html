@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+
+            JavaScript
+
+        </title>
+
+        <style>
+            body {
+                background-color: #dabf9b;
+                color: #382f16;
+            }
+            #parent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            #child {
+                background-color: #382f16;
+                color: #dabf9b;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                width: auto;
+                height: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="parent">
+            <div id="child">
+                <h2>
+            My First Javascript
+        </h2>
+
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+        <p id="demo"></p>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

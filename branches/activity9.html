@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+
+            Activity 9
+
+        </title>
+        <script>
+             function myFunction() {
+                let txt;
+                let fullName = prompt("Full name :", "Enter full name here");
+                if (fullName == null || fullName == "") {
+                    txt = "The field is required!";
+                } else {
+                    txt = "Hello " + fullName + "! How are you today?";
+             }
+             document.getElementById("demo").innerHTML = txt;
+            }
+        </script>
+
+        <style>
+            body {
+                background-color: #dabf9b;
+                color: #382f16;
+            }
+            #parent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            #child {
+                background-color: #382f16;
+                color: #dabf9b;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                width: auto;
+                height: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="parent">
+            <div id="child">
+                <h2>JavaScript Prompt</h2>
+                <button onclick="myFunction()">Click here!</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+    </body>
+</html>
